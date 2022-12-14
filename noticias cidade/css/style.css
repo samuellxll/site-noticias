@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ffff url(/imagens/fundo.png) repeat-x ;
+}
+#Conteiner{
+
+    width: 720px;
+    margin: 0 auto;
+
+}
+/* Topo */
+#Topo{
+
+    height: 150px;
+    background: url(/imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+.logo{
+
+    width: 152px;
+    height: 66px;
+    background: url(/imagens/logo.png) no-repeat center;
+    text-indent: -30000px;
+}
+ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#Topo ul{
+
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+
+}
+#Topo ul li{
+
+    float: left;
+    
+}
+#Topo ul a{
+
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none ;
+    color: #ffff;
+    background: url(/imagens/divisor.png) no-repeat left center;
+
+}
+#Topo ul .primeiro a{
+
+    background:none;
+
+}
+#Topo ul a:hover{
+
+    color: #69001d;
+}
+body.home #navegacao a#home,
+body.Brasil #navegacao a#Brasil,
+body.Internacional #navegacao a#Internacional,
+body.Economia #navegacao a#Economia,
+body.Saude #navegacao a#Saude,
+body.Ciencia #navegacao a#Ciencia
+{
+
+    color: #ffff;
+    background: #de003e;
+    cursor: text;
+
+}
+/* Conteudo */
+#conteudo{
+
+    margin-top: 60px;
+    background: #f5f5f5;
+    float: left;
+
+
+}
+#Lateral{
+
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -740px;
+
+}
+#Principal{
+    
+    width: 270px;
+    background: #69001d;
+    float: left;
+    margin: 0 0 20px 170px;
+
+}
+#Duas-colunas #Principal{
+
+    width: 540px;
+    
+}
+#Uma-coluna #Principal{
+
+    width: 720px;
+    margin: 0  0 20px 0;
+}
+#Segundario{
+
+    width: 270px;
+    background: #b10333;
+    float: left;
+    margin: 0 0 20px 8px;
+
+
+}
+/* fim do conteudo */
+
+/* CAIXA  */
+
+.caixas{
+    margin: 10px 0;
+    padding: 5px ;
+    background: #f3f3f3 url(/imagens/fundo-caixa.png);
+    
+}
+.caixas h2{
+   color: #f5f5f5;
+   background: #294c71;
+   padding: 3px;
+
+}
+.caixa-conteudo{
+    background: #ffff;
+    padding: 5px;
+    margin-top: 5px;
+}
+/* rodape */
+#conteiner-rodape{
+    background: #294c71;
+    padding: 20px;
+
+}
+#rodape{
+    width: 750px;
+    background: #294c71;
+    margin: 0 auto;
+    color: #ffff;
+}
